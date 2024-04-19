@@ -15,7 +15,8 @@ import Navbar from './components/Navbar';
 
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  // uri: '/graphql',
+  uri:'"https://book-search-backend-vk7h.onrender.com'
 });
 
 
